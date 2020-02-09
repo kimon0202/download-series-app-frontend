@@ -106,3 +106,9 @@ input.title-input {
 .add-item-form button[type="submit"]:hover {
   background: rgb(226, 196, 45);
 }
+
+@media screen and (max-width: 796px) {
+  .download-list {
+    width: 300px;
+  }
+}

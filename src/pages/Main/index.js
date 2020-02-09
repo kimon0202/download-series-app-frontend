@@ -48,7 +48,7 @@ export default function Main() {
       {items.length !== 0 && <ul className="download-list">
         {items.map((item, index) => {
           return (
-            <li>
+            <li key={item._id}>
               <h3>{item.title}</h3>
               <span onClick={() => deleteItem(item._id, index)}>
                 Delete
