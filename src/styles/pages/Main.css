@@ -1,0 +1,108 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.download-list {
+  background: #ececec;
+  list-style: none;
+  width: 600px;
+  padding: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.download-list li {
+  line-height: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+
+  width: 100%;
+
+  display: flex;
+  justify-content: space-around;
+
+  margin-bottom: 10px;
+}
+
+.download-list li h3 {
+  width: 80%;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.download-list li span {
+  font-size: 14px;
+  width: 20%;
+
+  color: blue;
+}
+
+.download-list li span:hover {
+  color: rgb(0, 0, 211);
+  cursor: pointer;
+}
+
+.add-item-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-item-form .input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.input label {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+input.title-input {
+  width: 300px;
+  height: 30px;
+
+  margin-top: 5px;
+  padding: 10px 20px;
+
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.add-item-form button[type="submit"] {
+  border: none;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+
+  height: 60px;
+  background: #fd3;
+
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.add-item-form button[type="submit"]:hover {
+  background: rgb(226, 196, 45);
+}
