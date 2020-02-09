@@ -50,7 +50,7 @@ export default function Main() {
           return (
             <li>
               <h3>{item.title}</h3>
-              <span onClick={() => deleteItem(item.id, index)}>
+              <span onClick={() => deleteItem(item._id, index)}>
                 Delete
               </span>
             </li>
